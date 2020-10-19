@@ -1,0 +1,21 @@
+.banner-principal {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+	background-color: red;
+}
+.banner-principal img {
+	width: 100%;
+	height: 100%;
+}
+.banner-tarja {
+	position: relative;
+	width: 100%;
+	height: 90px;
+}
+.banner-tarja img {
+	width: 100%;
+	height: 90px;
+}

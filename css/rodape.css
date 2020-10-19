@@ -1,0 +1,21 @@
+.rodape {
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	background-color: #000;
+	float: bottom;
+}
+.rodape ul {
+	width: auto;
+	position: absolute;
+	float: center;
+	left: 35%;
+	top: 15px;
+}
+.rodape li {
+	display: inline-block;
+}
+.rodape img {
+	width: 25px;
+	height: 25px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oficina</title>
+	<meta charset="UTF-8/">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/cabecalho.css?novo1">
+	<link rel="stylesheet" href="css/menu.css?novo9">
+	<link rel="stylesheet" href="css/banners.css?nov9">
+	<link rel="stylesheet" href="css/secoesprodutos.css?nov=19">
+	<link rel="stylesheet" href="css/rodape.css">
+	<link rel="stylesheet" href="css/dropdown.css?novo3">
+	<script src="js/windowscroll.js"></script>
+
+</head>
+<body>
+	<div class="principal">
+		<div class="cabecalho">
+			<ul type="none">
+				<li><img src="icons/face.png"></li>
+				<li><img src="icons/instagram.png"></li>
+				<li><img src="icons/whatsapp.png"></li>
+			</ul>
+		</div>
+		<div class="menu">
+			<div class="logo-principal">
+				<img src="imagem/oclock.png">
+			</div>
+			<div class="lista-menu">
+				<ul type="none">
+					<li>Home</li>
+					<li>
+						<div class="dropdown">
+							<butoon class="dropbtn">Marcas</butoon>							
+							<div class="dropdown-content">							
+								<a>Rolex</a>
+								<a>Hublot</a>
+								<a>Richard Mille</a>
+								<a>Séculos</a>
+								<a>Adidas</a>
+							</div>
+						</div>
+					</li>
+					<li>Cliente</li>
+					<li>Contato</li>
+				</ul>
+			</div>
+		</div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  	<ol class="carousel-indicators">
+		    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		  	</ol>
+		  	<div class="carousel-inner">
+			    <div class="carousel-item active banner-principal">
+		      		<img class="d-block w-100" src="banners/banner-rolex.png" alt="First slide">
+			    </div>
+			    <div class="carousel-item banner-principal">
+		      		<img class="d-block w-100" src="banners/black_friday.png" alt="Second slide">
+			    </div>
+			    <div class="carousel-item banner-principal">
+	      			<img class="d-block w-100" src="banners/yakuza.png" alt="Third slide">
+			    </div>
+			    <div class="carousel-item banner-principal">
+	      			<img class="d-block w-100" src="banners/g-shock.png" alt="fourth slide">
+			    </div>
+		  	</div>
+		  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  	</a>
+		  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  	</a>
+		</div>
+		<!-- <div class="banner-principal">
+			<img src="imagem/YAKUZA.PNG">
+		</div> -->
+		<div class="banner-tarja">
+			<img src="banners/banner-tarja.png">
+		</div>
+		<div class="secaoexibir1">
+			<img src="imagem/rolex-prata-verde.png">
+			<div class="descricaoexibir">
+				<h2>Rolex Submariner</h2>
+				<span class="span1">
+						- ROLEX TODO FUNCIONAL COM DATA <br>
+
+						- VISOR DE VIDRO DE SAFIRA<br>
+
+						- DATA (1 - 31) AUTOMÁTICO<br>
+
+						- PINO COM 2 ESTÁGIOS DE AJUSTE DATA/HORA <br>
+
+						- PINO COM SISTEMA DE PARAFUSO<br>
+						<br>
+				</span>
+			</div>
+		</div>
+		<div class="secaoexibir2">
+			<ul type="none">
+				<li>
+					<div class="card transparents" style="width: 18rem;">
+  						<img class="card-img-top img-zoom" src="imagem/rolex-prata-preto.png" alt="Card image cap">
+  						<div class="card-body">
+    						<h5 class="card-title">Card title</h5>
+    						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    						<button class="btn-compra">Comprar</button>
+  						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card transparents" style="width: 18rem;">
+  						<img class="card-img-top img-zoom" src="imagem/rolex-dourado-preto.png" alt="Card image cap">
+  						<div class="card-body">
+    						<h5 class="card-title">Card title</h5>
+    						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    						<button class="btn-compra">Comprar</button>
+  						</div>
+					</div>
+				</li>
+				<li>
+					<div class="card transparents" style="width: 18rem;">
+  						<img class="card-img-top img-zoom" src="imagem/rolex-prata-verde.png" alt="Card image cap">
+  						<div class="card-body">
+    						<h5 class="card-title">Card title</h5>
+    						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    						<button class="btn-compra">Comprar</button>
+  						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="rodape">
+		<div class="redes_sociais">
+			<ul type="none">
+				<li><img src="icons/face.png"></li>
+				<li><img src="icons/instagram.png"></li>
+				<li><img src="icons/whatsapp.png"></li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		//window.onscroll = scroll;
+	</script>
+</body>
+</html>
